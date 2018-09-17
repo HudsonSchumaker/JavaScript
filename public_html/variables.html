@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+Hudson Schumaker
+-->
+<html>
+    <head>
+        <title>Variables and scope</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload = checkscope();>
+        <script type = "text/javascript">
+            var myVar = "global";    // Declare a global variable
+            function checkscope( ) {
+               var myVar = "local";  // Declare a local variable
+               document.write(myVar);
+            }
+        </script>
+    </body>
+</html>
+
