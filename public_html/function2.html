@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Hudson Schumaker
+-->
+<html>
+    <head>
+        <title>function II</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function concatenate(first, last) {
+                return first + " " + last;
+            }
+            
+            function secondFunction() {
+                var result;
+                result = concatenate('Nikolas', 'Winter');
+                document.write(result);
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="button" onclick="secondFunction()" value="Call Function">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Hudson Schumaker
+-->
+<html>
+    <head>
+        <title>logical</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var a = true;
+            var b = false;
+            var linebreak = "<br />";
+
+            document.write("(a && b) => ");
+            result = (a && b);
+            document.write(result);
+            document.write(linebreak);
+
+            document.write("(a || b) => ");
+            result = (a || b);
+            document.write(result);
+            document.write(linebreak);
+
+            document.write("!(a && b) => ");
+            result = (!(a && b));
+            document.write(result);
+            document.write(linebreak);
+        </script>
+    </body>
+</html>
